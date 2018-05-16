@@ -36,7 +36,13 @@ class NaturalLanguageClassifierV1(WatsonService):
 
     default_url = 'https://gateway.watsonplatform.net/natural-language-classifier/api'
 
-    def __init__(self, url=default_url, username=None, password=None,
+    def __init__(self,
+                 url=default_url,
+                 username=None,
+                 password=None,
+                 iam_api_key=None,
+                 iam_access_token=None,
+                 iam_url=None):
         """
         Construct a new client for the Natural Language Classifier service.
 
@@ -56,6 +62,17 @@ class NaturalLanguageClassifierV1(WatsonService):
                Bluemix, the credentials will be automatically loaded from the
                `VCAP_SERVICES` environment variable.
 
+        :param str iam_api_key: An API key that can be used to request IAM tokens. If
+               this API key is provided, the SDK will manage the token and handle the
+               refreshing.
+
+        :param str iam_access_token:  An IAM access token is fully managed by the application.
+               Responsibility falls on the application to refresh the token, either before
+               it expires or reactively upon receiving a 401 from the service as any requests
+               made with an expired token will fail.
+
+        :param str iam_url: An optional URL for the IAM service API. Defaults to
+               'https://iam.ng.bluemix.net/identity/token'.
         """
 
         WatsonService.__init__(
@@ -64,6 +81,9 @@ class NaturalLanguageClassifierV1(WatsonService):
             url=url,
             username=username,
             password=password,
+            iam_api_key=iam_api_key,
+            iam_access_token=iam_access_token,
+            iam_url=iam_url,
             use_vcap_services=True)
 
     #########################
@@ -72,8 +92,6 @@ class NaturalLanguageClassifierV1(WatsonService):
 
     def classify(self, classifier_id, text, **kwargs):
         """
-        Classify a phrase.
-
         Returns label information for the input. The status must be `Available` before you
         can use the classifier to classify text.
 
@@ -103,8 +121,6 @@ class NaturalLanguageClassifierV1(WatsonService):
 
     def classify_collection(self, classifier_id, collection, **kwargs):
         """
-        Classify multiple phrases.
-
         Returns label information for multiple phrases. The status must be `Available`
         before you can use the classifier to classify text.  Note that classifying
         Japanese texts is a beta feature.
@@ -119,7 +135,9 @@ class NaturalLanguageClassifierV1(WatsonService):
             raise ValueError('classifier_id must be provided')
         if collection is None:
             raise ValueError('collection must be provided')
-        collection = [self._convert_model(x, ClassifyInput) for x in collection]
+        collection = [
+            self._convert_model(x, ClassifyInput) for x in collection
+        ]
         headers = {}
         if 'headers' in kwargs:
             headers.update(kwargs.get('headers'))
