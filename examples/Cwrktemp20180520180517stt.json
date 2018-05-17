@@ -1,0 +1,343 @@
+{
+  "models": [
+    {
+      "name": "pt-BR_NarrowbandModel",
+      "language": "pt-BR",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/pt-BR_NarrowbandModel",
+      "rate": 8000,
+      "supported_features": {
+        "custom_language_model": false,
+        "speaker_labels": false
+      },
+      "description": "Brazilian Portuguese narrowband model."
+    },
+    {
+      "name": "ko-KR_BroadbandModel",
+      "language": "ko-KR",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/ko-KR_BroadbandModel",
+      "rate": 16000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": false
+      },
+      "description": "Korean broadband model."
+    },
+    {
+      "name": "fr-FR_BroadbandModel",
+      "language": "fr-FR",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/fr-FR_BroadbandModel",
+      "rate": 16000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": true
+      },
+      "description": "French broadband model."
+    },
+    {
+      "name": "en-US_NarrowbandModel",
+      "language": "en-US",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/en-US_NarrowbandModel",
+      "rate": 8000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": true
+      },
+      "description": "US English narrowband model."
+    },
+    {
+      "name": "en-GB_BroadbandModel",
+      "language": "en-GB",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/en-GB_BroadbandModel",
+      "rate": 16000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": false
+      },
+      "description": "GB English broadband model."
+    },
+    {
+      "name": "ko-KR_NarrowbandModel",
+      "language": "ko-KR",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/ko-KR_NarrowbandModel",
+      "rate": 8000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": false
+      },
+      "description": "Korean narrowband model."
+    },
+    {
+      "name": "ja-JP_BroadbandModel",
+      "language": "ja-JP",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/ja-JP_BroadbandModel",
+      "rate": 16000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": true
+      },
+      "description": "Japanese broadband model."
+    },
+    {
+      "name": "en-GB_NarrowbandModel",
+      "language": "en-GB",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/en-GB_NarrowbandModel",
+      "rate": 8000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": false
+      },
+      "description": "GB English narrowband model."
+    },
+    {
+      "name": "es-ES_BroadbandModel",
+      "language": "es-ES",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/es-ES_BroadbandModel",
+      "rate": 16000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": true
+      },
+      "description": "Spanish broadband model."
+    },
+    {
+      "name": "ar-AR_BroadbandModel",
+      "language": "ar-AR",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/ar-AR_BroadbandModel",
+      "rate": 16000,
+      "supported_features": {
+        "custom_language_model": false,
+        "speaker_labels": false
+      },
+      "description": "Modern Standard Arabic broadband model."
+    },
+    {
+      "name": "zh-CN_NarrowbandModel",
+      "language": "zh-CN",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/zh-CN_NarrowbandModel",
+      "rate": 8000,
+      "supported_features": {
+        "custom_language_model": false,
+        "speaker_labels": false
+      },
+      "description": "Mandarin narrowband model."
+    },
+    {
+      "name": "ja-JP_NarrowbandModel",
+      "language": "ja-JP",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/ja-JP_NarrowbandModel",
+      "rate": 8000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": true
+      },
+      "description": "Japanese narrowband model."
+    },
+    {
+      "name": "es-ES_NarrowbandModel",
+      "language": "es-ES",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/es-ES_NarrowbandModel",
+      "rate": 8000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": true
+      },
+      "description": "Spanish narrowband model."
+    },
+    {
+      "name": "zh-CN_BroadbandModel",
+      "language": "zh-CN",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/zh-CN_BroadbandModel",
+      "rate": 16000,
+      "supported_features": {
+        "custom_language_model": false,
+        "speaker_labels": false
+      },
+      "description": "Mandarin broadband model."
+    },
+    {
+      "name": "pt-BR_BroadbandModel",
+      "language": "pt-BR",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/pt-BR_BroadbandModel",
+      "rate": 16000,
+      "supported_features": {
+        "custom_language_model": false,
+        "speaker_labels": false
+      },
+      "description": "Brazilian Portuguese broadband model."
+    },
+    {
+      "name": "en-US_BroadbandModel",
+      "language": "en-US",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/en-US_BroadbandModel",
+      "rate": 16000,
+      "supported_features": {
+        "custom_language_model": true,
+        "speaker_labels": true
+      },
+      "description": "US English broadband model."
+    }
+  ]
+}
+{
+  "rate": 16000,
+  "name": "en-US_BroadbandModel",
+  "language": "en-US",
+  "sessions": "https://stream.watsonplatform.net/speech-to-text/api/v1/sessions?model=en-US_BroadbandModel",
+  "url": "https://stream.watsonplatform.net/speech-to-text/api/v1/models/en-US_BroadbandModel",
+  "supported_features": {
+    "custom_language_model": true,
+    "speaker_labels": true
+  },
+  "description": "US English broadband model."
+}
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "thunderstorms could produce large hail isolated tornadoes and heavy rain ",
+          "confidence": 0.994,
+          "word_confidence": [
+            [
+              "thunderstorms",
+              1.0
+            ],
+            [
+              "could",
+              1.0
+            ],
+            [
+              "produce",
+              1.0
+            ],
+            [
+              "large",
+              1.0
+            ],
+            [
+              "hail",
+              0.998
+            ],
+            [
+              "isolated",
+              0.965
+            ],
+            [
+              "tornadoes",
+              1.0
+            ],
+            [
+              "and",
+              1.0
+            ],
+            [
+              "heavy",
+              1.0
+            ],
+            [
+              "rain",
+              0.994
+            ]
+          ],
+          "timestamps": [
+            [
+              "thunderstorms",
+              1.49,
+              2.32
+            ],
+            [
+              "could",
+              2.32,
+              2.54
+            ],
+            [
+              "produce",
+              2.54,
+              3.01
+            ],
+            [
+              "large",
+              3.01,
+              3.35
+            ],
+            [
+              "hail",
+              3.35,
+              3.79
+            ],
+            [
+              "isolated",
+              3.79,
+              4.42
+            ],
+            [
+              "tornadoes",
+              4.42,
+              5.03
+            ],
+            [
+              "and",
+              5.03,
+              5.27
+            ],
+            [
+              "heavy",
+              5.27,
+              5.61
+            ],
+            [
+              "rain",
+              5.61,
+              6.14
+            ]
+          ]
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0
+}
+Connection was successful
+[{'transcript': 'thank '}]
+[{'transcript': 'thunder '}]
+[{'transcript': 'thunder '}]
+[{'transcript': 'thunderstorm '}]
+[{'transcript': 'thunderstorm '}]
+[{'transcript': 'thunderstorms '}]
+[{'transcript': 'thunderstorms could '}]
+[{'transcript': 'thunderstorms could '}]
+[{'transcript': 'thunderstorms could '}]
+[{'transcript': 'thunderstorms could produce '}]
+[{'transcript': 'thunderstorms could produce '}]
+[{'transcript': 'thunderstorms could produce '}]
+[{'transcript': 'thunderstorms could produce law '}]
+[{'transcript': 'thunderstorms could produce large '}]
+[{'transcript': 'thunderstorms could produce large '}]
+[{'transcript': 'thunderstorms could produce large '}]
+[{'transcript': 'thunderstorms could produce large Hey '}]
+[{'transcript': 'thunderstorms could produce large hail '}]
+[{'transcript': 'thunderstorms could produce large hail '}]
+[{'transcript': 'thunderstorms could produce large hail '}]
+[{'transcript': 'thunderstorms could produce large hail obviously '}]
+[{'transcript': 'thunderstorms could produce large hail isolate '}]
+[{'transcript': 'thunderstorms could produce large hail isolated '}]
+[{'transcript': 'thunderstorms could produce large hail isolated to '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tore '}]
+[{'transcript': 'thunderstorms could produce large hail isolated torn '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornado '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and have '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and heavy '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and heavy '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and heavy rain '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and heavy rain '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and heavy rain '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and heavy rain '}]
+[{'transcript': 'thunderstorms could produce large hail isolated tornadoes and heavy rain '}]
+thunderstorms could produce large hail isolated tornadoes and heavy rain 
+Transcription completed
